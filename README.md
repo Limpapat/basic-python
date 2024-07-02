@@ -1,3 +1,5 @@
+# Welcome to Brach pat haha :p
+
 # Introduction to Python
 
 Welcome to the introduction to Python! This guide will walk you through the basics of Python programming.
