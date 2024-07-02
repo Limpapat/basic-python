@@ -1,6 +1,3 @@
-# basic-python
-this repo is a part of special topic class that used to learn about git branch!
-
 # Introduction to Python
 
 Welcome to the introduction to Python! This guide will walk you through the basics of Python programming.
