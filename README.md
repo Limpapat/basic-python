@@ -1,4 +1,4 @@
-# Welcome to Brach pat haha :p
+# Welcome to Braches pat haha :p
 
 # Introduction to Python
 
