@@ -1,5 +1,3 @@
-# Welcome to Braches pat haha :p
-
 # Introduction to Python
 
 Welcome to the introduction to Python! This guide will walk you through the basics of Python programming.
@@ -34,7 +32,3 @@ Python uses indentation to define blocks of code. Here’s a simple example:
 ```python
 print("Hello, World!")
 ```
-
-# Test
-
-# Hi pooh
