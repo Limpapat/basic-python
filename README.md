@@ -3,17 +3,17 @@
 Welcome to the introduction to Python! This guide will walk you through the basics of Python programming.
 
 ## Table of Contents
-- [Introduction to Python](#introduction-to-python)
-  - [Table of Contents](#table-of-contents)
-  - [What is Python?](#what-is-python)
-  - [Setting Up Python](#setting-up-python)
-  - [Basic Syntax](#basic-syntax)
-  - [Basic Operators](#basic-operators)
-    - [ตัวดำเนินการพื้นฐานในภาษา Python](#ตัวดำเนินการพื้นฐานในภาษา-python)
-    - [1. ตัวดำเนินการทางคณิตศาสตร์](#1-ตัวดำเนินการทางคณิตศาสตร์)
-    - [2. ตัวดำเนินการเปรียบเทียบ](#2-ตัวดำเนินการเปรียบเทียบ)
-    - [3. ตัวดำเนินการทางตรรกะ](#3-ตัวดำเนินการทางตรรกะ)
-    - [4. ตัวดำเนินการกำหนดค่า](#4-ตัวดำเนินการกำหนดค่า)
+1. [What is Python?](#what-is-python)
+2. [Setting Up Python](#setting-up-python)
+3. [Basic Syntax](#basic-syntax)
+4. [Variables and Data Types](#variables-and-data-types)
+5. [Basic Operators](#basic-operators)
+6. [Control Flow](#control-flow)
+7. [Functions](#functions)
+8. [Lists and Tuples](#lists-and-tuples)
+9. [Dictionaries](#dictionaries)
+10. [File Handling](#file-handling)
+11. [Conclusion](#conclusion)
 
 ## What is Python?
 Python is a high-level, interpreted programming language known for its easy readability and versatile use cases. It supports multiple programming paradigms, including procedural, object-oriented, and functional programming.
