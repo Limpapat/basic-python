@@ -268,16 +268,16 @@ result = None
 ```
       
 ### การตรวจสอบและแปลงชนิดข้อมูล:
-    ```python
-    x = 10
-    y = "Hello"
-    z = [1, 2, 3]
+```python
+x = 10
+y = "Hello"
+z = [1, 2, 3]
 
-    print(type(x))  # <class 'int'>
-    print(type(y))  # <class 'str'>
-    print(type(z))  # <class 'list'>
+print(type(x))  # <class 'int'>
+print(type(y))  # <class 'str'>
+print(type(z))  # <class 'list'>
 
-    a = int("5")  # แปลงสตริงเป็นจำนวนเต็ม
-    b = float("3.14")  # แปลงสตริงเป็นจำนวนทศนิยม
-    c = str(42)  # แปลงจำนวนเต็มเป็นสตริง
-    ```
+a = int("5")  # แปลงสตริงเป็นจำนวนเต็ม
+b = float("3.14")  # แปลงสตริงเป็นจำนวนทศนิยม
+c = str(42)  # แปลงจำนวนเต็มเป็นสตริง
+```
