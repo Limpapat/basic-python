@@ -40,6 +40,7 @@ print("Hello, World!")
 # 1. ตัวแปร (Variables):
 
    a. การสร้างและกำหนดค่าให้ตัวแปร:
+
       ```python
       age = 25 #Integer
       name = "สมชาย" #String
@@ -48,6 +49,7 @@ print("Hello, World!")
       ```
 
    b. การเปลี่ยนชนิดข้อมูลของตัวแปร:
+
       ```python
       x = 10
       print(type(x))  # <class 'int'>
@@ -59,9 +61,13 @@ print("Hello, World!")
       ```
 
    c. กฎการตั้งชื่อตัวแปร:
+
       - สามารถใช้ตัวอักษร ตัวเลข และขีดล่าง (_) ในการตั้งชื่อตัวแปรได้ แต่ต้องไม่ขึ้นต้นด้วยตัวเลข เช่น 123name = "" คือไม่ถูกต้อง
+      
       - ต้องขึ้นต้นด้วยตัวอักษรหรือขีดล่างก็ได้
+      
       - ห้ามใช้คำสงวน (reserved words) ของ Python เช่น class, def, if, for, while, etc.
+
       ```python
       valid_name  "ถูกต้อง"
       _also_valid  "ถูกต้องเช่นกัน"
@@ -71,6 +77,7 @@ print("Hello, World!")
       ```
 
    d. ความแตกต่างระหว่างตัวพิมพ์ใหญ่และเล็ก:
+
       ```python
       name = "สมชาย"
       Name = "สมหญิง"
@@ -79,6 +86,7 @@ print("Hello, World!")
       ```
 
    e. การใช้ type hints:
+
       ```python
       age: int = 25
       name: str = "สมชาย"
@@ -87,6 +95,7 @@ print("Hello, World!")
       ```
 
    f. การกำหนดค่าหลายตัวแปรพร้อมกัน:
+
       ```python
       x, y, z = 1, 2, 3
       print(x, y, z)  # 1 2 3
@@ -98,6 +107,7 @@ print("Hello, World!")
       ```
 
    g. การใช้ตัวแปรในการคำนวณ:
+
       ```python
       width = 5
       height = 3
@@ -110,6 +120,7 @@ print("Hello, World!")
       ```
 
    h. ตัวแปรที่อ้างอิงถึงฟังก์ชันหรือเมธอด:
+
       ```python
       def greet(name):
           return f"สวัสดี, {name}!"
@@ -119,6 +130,7 @@ print("Hello, World!")
       ```
 
    i. การใช้ตัวแปรกับ list comprehension:
+
       ```python
       numbers = [1, 2, 3, 4, 5]
       squared = [num ** 2 for num in numbers]
@@ -126,6 +138,7 @@ print("Hello, World!")
       ```
 
    j. ตัวแปรแบบ global และ local:
+
       ```python
       global_var = "ฉันเป็นตัวแปร global"
 
@@ -140,6 +153,7 @@ print("Hello, World!")
       ```
 
    k. การใช้ตัวแปรกับ f-strings:
+
       ```python
       name = "สมชาย"
       age = 30
@@ -150,9 +164,11 @@ print("Hello, World!")
 # 2. ชนิดข้อมูล (Data Types):
    
    a. จำนวนเต็ม (int):
+
       - ใช้เก็บตัวเลขจำนวนเต็มบวก ลบ หรือศูนย์
       - สามารถทำการคำนวณทางคณิตศาสตร์ได้
       - สามารถใช้ underscore เพื่อทำให้ตัวเลขอ่านง่ายขึ้น
+
       ```python
       a = 10
       b = -5
@@ -161,18 +177,22 @@ print("Hello, World!")
       ```
 
    b. จำนวนทศนิยม (float):
+
       - ใช้เก็บตัวเลขที่มีจุดทศนิยม
       - มีความแม่นยำจำกัด อาจเกิดข้อผิดพลาดในการคำนวณได้
+
       ```python
       pi = 3.14159
       result = 1.1 + 2.2  # อาจไม่ได้ 3.3 พอดี เนื่องจากข้อจำกัดของ float
       ```
 
    c. สตริง (str):
+
       - ใช้เก็บข้อความ
       - สามารถใช้เครื่องหมาย ' หรือ " ล้อมรอบได้
       - สามารถทำการต่อสตริง (concatenation) และทำซ้ำ (repetition) ได้
       - สามารถใช้ f-strings เพื่อจัดรูปแบบสตริงได้สะดวก
+
       ```python
       greeting = "สวัสดี"
       name = 'คุณ'
@@ -182,9 +202,11 @@ print("Hello, World!")
       ```
 
    d. บูลีน (bool):
+
       - มีค่าเพียงสองค่าคือ True และ False
       - ใช้ในการตัดสินใจและการควบคุมการทำงานของโปรแกรม
       - สามารถใช้ร่วมกับ boolean operators (and, or, not)
+
       ```python
       is_student = True
       has_passed = False
@@ -193,10 +215,12 @@ print("Hello, World!")
       ```
 
    e. ลิสต์ (List):
+
       - เก็บข้อมูลหลายๆ ค่าในลำดับที่กำหนด
       - สามารถแก้ไข เพิ่ม หรือลบสมาชิกได้ (mutable)
       - ใช้วงเล็บเหลี่ยม [ ]
       - สามารถใช้ list comprehension ได้
+
       ```python
       fruits = ["แอปเปิ้ล", "กล้วย", "ส้ม"]
       fruits.append("มะม่วง")  # เพิ่ม "มะม่วง" เข้าไปในลิสต์
@@ -204,16 +228,20 @@ print("Hello, World!")
       ```
 
    f. ทูเพิล (Tuple):
+
       - คล้ายกับลิสต์ แต่ไม่สามารถแก้ไขค่าภายในได้ (immutable)
       - ใช้วงเล็บกลม ( )
+
       ```python
       coordinates = (10, 20)
       # coordinates[0] = 30  # จะเกิด error เพราะไม่สามารถแก้ไขค่าใน tuple ได้
       ```
 
    g. พจนานุกรม (Dictionary):
+
       - เก็บข้อมูลในรูปแบบคู่ของ key และ value
       - ใช้วงเล็บปีกกา { }
+
       ```python
       student = {"ชื่อ": "อลิซ", "อายุ": 20, "คะแนน": 85.5}
       print(student["ชื่อ"])  # แสดงผล: อลิซ
@@ -222,15 +250,19 @@ print("Hello, World!")
       ```
 
    h. เซต (Set):
+   
       - คอลเลกชันของสมาชิก
       - ไม่มีลำดับที่แน่นอน
       - ใช้วงเล็บปีกกา { } หรือฟังก์ชัน set()
+
       ```python
       unique_numbers = {1, 2, 3, 3, 4, 4, 5}  # {1, 2, 3, 4, 5}
       ```
 
    i. None:
+
       - ค่าพิเศษที่ใช้แทนการไม่มีค่าหรือค่า null
+
       ```python
       result = None
       ```
