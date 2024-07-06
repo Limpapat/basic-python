@@ -31,4 +31,36 @@ Python uses indentation to define blocks of code. Here’s a simple example:
 
 ```python
 print("Hello, World!")
+print("halo")
+```
+
+## Functions
+Functions เป็นส่วนสำคัญใน Python ที่ช่วยให้เราสามารถระบุกลุ่มของคำสั่งที่ต้องการทำซ้ำๆ 
+
+### Example 1 ฟังก์ชันสำหรับบวกเลข
+
+```python
+def add_numbers(a, b):
+    """ฟังก์ชันสำหรับบวกเลข a และ b"""
+    sum = a + b
+    return sum
+
+# เรียกใช้งานฟังก์ชัน
+result = add_numbers(5, 3)
+print("ผลรวม:", result)  # ผลลัพธ์คือ 8
+```
+
+### Example 2 ฟังก์ชันสำหรับคำนวณความยาวด้านของสามเหลี่ยมตามหลักพีทาโกรัส
+
+```python
+
+def calculate_triangle_hypotenuse(a, b):
+    hypotenuse = (a**2 + b**2)**0.5
+    return round(hypotenuse, 2)
+
+# ตัวอย่างการใช้งานฟังก์ชัน
+side1 = 3
+side2 = 4
+hypotenuse = calculate_triangle_hypotenuse(side1, side2)
+print(f"ความยาวด้านของสามเหลี่ยมที่มีด้านที่หนึ่งเท่ากับ {side1} และด้านที่สองเท่ากับ {side2} คือ {hypotenuse} เซนติเมตร")
 ```
