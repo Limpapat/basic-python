@@ -32,3 +32,14 @@ Python uses indentation to define blocks of code. Here’s a simple example:
 ```python
 print("Hello, World!")
 ```
+## คำสั่ง if,else
+ใช้สำหรับการตัดสินใจแบบมีเงื่อนไข
+ตรวจสอบเงื่อนไข และดำเนินการตามเงื่อนไขนั้นๆ
+สามารถมี else เพิ่มเติมเพื่อกำหนดการทำงานเมื่อเงื่อนไขไม่เป็นจริง
+```python
+age = int(input("กรุณาใส่จำนวนปี: "))
+
+if age >= 18:
+  print("คุณมีสิทธิ์เลือกตั้ง")
+else:
+  print("คุณยังไม่มีสิทธิ์เลือกตั้ง")
