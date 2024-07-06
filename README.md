@@ -37,7 +37,7 @@ print("halo")
 ## Functions
 Functions เป็นส่วนสำคัญใน Python ที่ช่วยให้เราสามารถระบุกลุ่มของคำสั่งที่ต้องการทำซ้ำๆ 
 
-### Example
+### Example 1 ฟังก์ชันสำหรับบวกเลข
 
 ```python
 def add_numbers(a, b):
