@@ -33,3 +33,5 @@ Python uses indentation to define blocks of code. Here’s a simple example:
 print("Hello, World!")
 print("halo")
 ```
+
+## Functions
