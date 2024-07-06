@@ -32,3 +32,14 @@ Python uses indentation to define blocks of code. Here’s a simple example:
 ```python
 print("Hello, World!")
 ```
+
+## Lists
+ - Lists เป็นโครงสร้างข้อมูลที่ใช้เก็บข้อมูลแบบเรียงลำดับ (ordered sequence)ซึ่งสามารถเปลี่ยนแปลงค่าของสมาชิกภายในได้ (mutable) โดยใช้วงเล็บเหลี่ยม [ ] เพื่อล้อมรอบข้อมูลภายใน
+- สามารถมีสมาชิกที่มีประเภทข้อมูลต่างกันได้ในรายการเดียวกัน
+- สามารถเพิ่มหรือลบสมาชิกได้โดยใช้เมทอดต่างๆ เช่น append(), insert(), remove(), pop() เป็นต้น
+ตัวอย่างการใช้งาน Lists:
+
+my_list = [1, 2, 3, 4, 5]
+my_list.append(6)
+print(my_list)  # Output: [1, 2, 3, 4, 5, 6]
+
