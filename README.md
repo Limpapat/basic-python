@@ -66,3 +66,5 @@ print(f"ความยาวด้านของสามเหลี่ยม
 ```
 
 print("functions")
+
+##print("functions")
