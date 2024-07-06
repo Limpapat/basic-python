@@ -35,3 +35,12 @@ print("halo")
 ```
 
 ## Functions
+```python
+# ในส่วนนี้คือตัวอย่างการใช้งานฟังก์ชันในไฟล์ Functions.py
+
+# import ฟังก์ชัน
+from Functions import add_numbers
+
+# ใช้งาน add_numbers
+result = add_numbers(5, 3)
+print("ผลรวม:", result)  # ผลลัพธ์คือ 8
