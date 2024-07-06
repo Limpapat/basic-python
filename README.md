@@ -64,3 +64,5 @@ side2 = 4
 hypotenuse = calculate_triangle_hypotenuse(side1, side2)
 print(f"ความยาวด้านของสามเหลี่ยมที่มีด้านที่หนึ่งเท่ากับ {side1} และด้านที่สองเท่ากับ {side2} คือ {hypotenuse} เซนติเมตร")
 ```
+
+print("functions")
