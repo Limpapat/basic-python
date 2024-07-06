@@ -35,8 +35,9 @@ print("halo")
 ```
 
 ## Functions
+Functions เป็นส่วนสำคัญใน Python ที่ช่วยให้เราสามารถระบุกลุ่มของคำสั่งที่ต้องการทำซ้ำๆ ได้:
+
 ```python
-# ในส่วนนี้คือตัวอย่างการใช้งานฟังก์ชันในไฟล์ Functions.py
 
 # import ฟังก์ชัน
 from Functions import add_numbers
